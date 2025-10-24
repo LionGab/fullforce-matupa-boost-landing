@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-gym.jpg";
+import { Logo } from "@/components/Logo";
 
 export const Hero = () => {
   const scrollToPlans = () => {
@@ -22,6 +23,11 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
+          {/* Logo */}
+          <div className="mb-4">
+            <Logo className="inline-block scale-125" />
+          </div>
+          
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-6 py-3">
             <span className="relative flex h-3 w-3">

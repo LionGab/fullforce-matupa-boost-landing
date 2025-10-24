@@ -3,7 +3,7 @@ import { Trophy, Users, Calendar, Target } from "lucide-react";
 
 export const Challenge = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-secondary/20">
+    <section id="desafio" className="py-20 bg-gradient-to-b from-background to-secondary/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-4">
