@@ -35,16 +35,16 @@ export const Header = () => {
               Planos
             </button>
             <button
+              onClick={() => scrollToSection("estrutura")}
+              className="text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Estrutura
+            </button>
+            <button
               onClick={() => scrollToSection("desafio")}
               className="text-foreground hover:text-primary transition-colors font-semibold"
             >
               Desafio
-            </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-foreground hover:text-primary transition-colors font-semibold"
-            >
-              Depoimentos
             </button>
             <button
               onClick={() => scrollToSection("contato")}
@@ -86,16 +86,16 @@ export const Header = () => {
               Planos
             </button>
             <button
+              onClick={() => scrollToSection("estrutura")}
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Estrutura
+            </button>
+            <button
               onClick={() => scrollToSection("desafio")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
             >
               Desafio
-            </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
-            >
-              Depoimentos
             </button>
             <button
               onClick={() => scrollToSection("contato")}

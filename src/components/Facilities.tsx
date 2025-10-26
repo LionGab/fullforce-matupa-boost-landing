@@ -3,7 +3,7 @@ import { Bike, Weight, Activity, Flame, Wind, Trophy } from "lucide-react";
 
 export const Facilities = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary/20 to-background">
+    <section id="estrutura" className="py-20 bg-gradient-to-b from-secondary/20 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-4">
