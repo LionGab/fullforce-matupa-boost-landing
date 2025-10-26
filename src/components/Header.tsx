@@ -23,6 +23,12 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <button
+              onClick={() => scrollToSection("beneficios")}
+              className="text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Benefícios
+            </button>
+            <button
               onClick={() => scrollToSection("planos")}
               className="text-foreground hover:text-primary transition-colors font-semibold"
             >
@@ -33,6 +39,12 @@ export const Header = () => {
               className="text-foreground hover:text-primary transition-colors font-semibold"
             >
               Desafio
+            </button>
+            <button
+              onClick={() => scrollToSection("depoimentos")}
+              className="text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Depoimentos
             </button>
             <button
               onClick={() => scrollToSection("contato")}
@@ -62,6 +74,12 @@ export const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden py-4 space-y-4 border-t border-border">
             <button
+              onClick={() => scrollToSection("beneficios")}
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Benefícios
+            </button>
+            <button
               onClick={() => scrollToSection("planos")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
             >
@@ -72,6 +90,12 @@ export const Header = () => {
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
             >
               Desafio
+            </button>
+            <button
+              onClick={() => scrollToSection("depoimentos")}
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-colors font-semibold"
+            >
+              Depoimentos
             </button>
             <button
               onClick={() => scrollToSection("contato")}

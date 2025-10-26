@@ -48,9 +48,24 @@ export const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Garanta seu <span className="text-primary font-bold">Plano Anual</span> e economize{" "}
+            Garanta seu <span className="text-primary font-bold">Plano Anual</span> na melhor academia de Matupá e economize{" "}
             <span className="text-accent font-bold">R$ 2.149</span> no ano!
           </p>
+          
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground pt-2">
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full bg-primary"></div>
+              <span>+50 Equipamentos</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full bg-primary"></div>
+              <span>Profissionais Qualificados</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full bg-primary"></div>
+              <span>Ambiente Climatizado</span>
+            </div>
+          </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
